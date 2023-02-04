@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background: url(../Images/My\ Account\ Background.jpg)
+    rgba(18, 206, 206, 0.75);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topNav {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 2em; */
+  /* margin-right: 1.5rem; */
+}
+
+.topNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topNav ul li {
+  float: left;
+  width: 9.375rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  /* font-size: 18px; */
+}
+
+.topNav ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.topNav ul li a:hover {
+  background-color: lightblue;
+}
+
+.topNav ul li ul li {
+  display: none;
+}
+
+.topNav ul li:hover ul li {
+  display: block;
+}
+
+.topNav a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75rem;
+  margin: auto;
+}
+
+.welcome {
+  list-style: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.catalog {
+  border: 1px solid black;
+  /* padding: 5px 25px 5px 25px; */
+  border-radius: 5px;
+}
+
+.search {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.signIn {
+  border: 1px solid black;
+  /* padding: 5px 25px 5px 25px; */
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.section1 {
+  width: 75rem;
+  height: 50rem;
+  border: solid 3px rgba(14, 242, 242, 0.75);
+  border-radius: 15px;
+  background: rgba(27, 220, 220, 0.75);
+  margin-top: 1.875rem;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  width: 7.5rem;
+  height: 7.5rem;
+  top: 2.938rem;
+  left: 5.5rem;
+}
+
+.logo img {
+  width: 7.5rem;
+  border: solid 3px rgba(130, 198, 198, 0.75);
+  border-radius: 15px;
+}
+
+.persona {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-left: 18.75rem;
+  margin-top: 3.125rem;
+  text-align: center;
+}
+
+.persona img {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  border: 2px solid aqua;
+}
+
+.content {
+  margin-top: 5rem;
+  margin-left: 15.625rem;
+}
+
+.srchBtn {
+  margin-top: 3.75rem;
+  margin-left: 13.75rem;
+  width: 15.625rem;
+  height: 4.375rem;
+  background-color: rgba(130, 198, 198, 0.75);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials p {
+  font-size: 30px;
+  margin-top: 3.438rem;
+}
+
+.socials img {
+  width: 15.625rem;
+  margin-top: -1.875rem;
+}

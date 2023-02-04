@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background: url(../Images/Search\ Background.jpg) rgba(18, 206, 206, 0.75);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.topNav {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 2em; */
+  /* margin-right: 1.5rem; */
+}
+.topNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topNav ul li {
+  float: left;
+  width: 9.375rem;
+  height: 2.5rem;
+  line-height: 40px;
+  text-align: center;
+  /* font-size: 18px; */
+}
+
+.topNav ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.topNav ul li a:hover {
+  background-color: lightblue;
+}
+
+.topNav ul li ul li {
+  display: none;
+}
+
+.topNav ul li:hover ul li {
+  display: block;
+}
+
+.topNav a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75rem;
+  margin: auto;
+}
+
+.welcome {
+  list-style: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.catalog {
+  border: 1px solid black;
+  /* padding: 5px 25px 5px 25px; */
+  border-radius: 5px;
+}
+
+.search {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.signIn {
+  border: 1px solid black;
+  /* padding: 5px 25px 5px 25px; */
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.section1 {
+  width: 75rem;
+  height: 50rem;
+  border: solid 3px rgba(14, 242, 242, 0.75);
+  border-radius: 15px;
+  background: rgba(27, 220, 220, 0.75);
+  margin-top: 1.875rem;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  width: 7.5rem;
+  height: 7.5rem;
+  top: 2.938rem;
+  left: 5.5rem;
+}
+
+.logo img {
+  width: 7.5rem;
+  border: solid 3px rgba(130, 198, 198, 0.75);
+  border-radius: 15px;
+}
+
+input {
+  margin-top: 1.563rem;
+  width: 28.125rem;
+  height: 1.875rem;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+#dropdown {
+  width: 5rem;
+  height: 1.875rem;
+  background-color: aqua;
+}
+
+.srchBtn {
+  margin-top: 25rem;
+}
+
+button {
+  width: 12.5rem;
+  height: 3.75rem;
+  border-radius: 8px;
+  background-color: rgba(14, 242, 242, 0.75);
+}
+
+.category {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 8.438rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.selection {
+  padding: 1.25rem;
+  width: 8.063rem;
+  height: 5.375rem;
+  background: rgba(70, 218, 191, 0.5);
+  border: 1px solid #4e4d4d;
+  border-radius: 10px;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials p {
+  font-size: 30px;
+  margin-top: 3.438rem;
+}
+
+.socials img {
+  width: 15.625rem;
+  margin-top: -1.875rem;
+}

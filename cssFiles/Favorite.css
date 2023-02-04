@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background: url(../Images/Individual\ Catalog\ Background.jpg)
+    rgba(18, 206, 206, 0.75);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.topNav {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 2em; */
+  /* margin-right: 1.5rem; */
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  float: left;
+  width: 9.375rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  /* font-size: 18px; */
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  /* display: block; */
+}
+
+ul li a:hover {
+  background-color: lightblue;
+}
+
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75rem;
+  margin: auto;
+}
+
+.welcome {
+  list-style: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.catalog {
+  border: 1px solid black;
+  /* padding: 5px 25px 5px 25px; */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.search {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.signIn {
+  border: 1px solid black;
+  /* padding: 5px 25px 5px 25px; */
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.section1 {
+  width: 75rem;
+  height: 56.25rem;
+  border: solid 3px rgba(14, 242, 242, 0.75);
+  border-radius: 15px;
+  background: rgba(27, 220, 220, 0.75);
+  margin-top: 1.875rem;
+  /* text-align: center; */
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  width: 7.5rem;
+  height: 7.5rem;
+  top: 2.938rem;
+  left: 5.5rem;
+}
+
+.logo img {
+  width: 7.5rem;
+  border: solid 3px rgba(130, 198, 198, 0.75);
+  border-radius: 15px;
+}
+
+.book {
+  display: inline-block;
+  position: absolute;
+  width: 7.5rem;
+  height: 7.5rem;
+  top: 47.188rem;
+  left: 75rem;
+}
+
+.book img {
+  width: 11.25rem;
+  height: 17.5rem;
+  border: solid 1px blue;
+  border-radius: 15px;
+}
+
+.description {
+  width: 56.25rem;
+  height: 26.75rem;
+  margin-top: 1.25rem;
+  margin-left: 6.25rem;
+}
+
+p {
+  margin-bottom: 1.563rem;
+  line-height: 1.563rem;
+}
+
+.btn {
+  margin-top: 1.875rem;
+  margin-left: 28.125rem;
+}
+
+.btn1 {
+  text-align: center;
+  width: 20.75rem;
+  height: 2.625rem;
+  font-size: 24px;
+  border-radius: 15px;
+  background-color: rgba(14, 242, 242, 0.75);
+  cursor: pointer;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 1.875rem;
+}
+
+.rating img {
+  width: 21.875rem;
+  height: 9.375rem;
+}
+
+.checkout {
+  margin-top: 3.125rem;
+  margin-left: 30rem;
+}
+
+.checkout button {
+  text-align: center;
+  width: 15.625rem;
+  height: 2.625rem;
+  border-radius: 15px;
+  font-size: 24px;
+  background-color: rgba(14, 242, 242, 0.75);
+  cursor: pointer;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials p {
+  font-size: 30px;
+  margin-top: 3.438rem;
+}
+
+.socials img {
+  width: 15.625rem;
+  margin-top: -1.875rem;
+}

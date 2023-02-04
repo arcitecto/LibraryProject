@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+  .section1 {
+    width: 56.25rem;
+    margin: auto;
+    margin-top: 1.875rem;
+  }
+
+  .section2 {
+    width: 56.25rem;
+    margin: auto;
+    margin-top: 6.25rem;
+  }
+
+  .section3 {
+    width: 56.25rem;
+    margin: auto;
+    margin-top: 6.25rem;
+  }
+
+  .section3 img {
+    margin-top: 5rem;
+    width: 50rem;
+  }
+}

@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background: url(../Images/Sign\ In\ Background.jpg) rgba(18, 206, 206, 0.75);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.topNav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 2em; */
+  /* margin-right: 1.5rem; */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  float: left;
+  width: 9.375rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  /* font-size: 18px; */
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  /* display: block; */
+}
+
+ul li a:hover {
+  background-color: lightblue;
+}
+
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75rem;
+  margin: auto;
+}
+
+.welcome {
+  list-style: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.catalog {
+  border: 1px solid black;
+  /* padding: 5px 25px 5px 25px; */
+  border-radius: 5px;
+}
+
+.search {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.signIn {
+  border: 1px solid black;
+  /* padding: 5px 25px 5px 25px; */
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.section1 {
+  width: 75rem;
+  height: 50rem;
+  border: solid 3px rgba(14, 242, 242, 0.75);
+  border-radius: 15px;
+  background: rgba(27, 220, 220, 0.75);
+  margin-top: 1.875rem;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  width: 7.5rem;
+  height: 7.5rem;
+  top: 2.938rem;
+  left: 5.5rem;
+}
+
+.logo img {
+  width: 7.5rem;
+  border: solid 3px rgba(130, 198, 198, 0.75);
+  border-radius: 15px;
+}
+
+h1 {
+  margin: 2.5rem 0 3.75rem 0;
+}
+
+input[type="text"] {
+  width: 8.125rem;
+  margin-bottom: 5rem;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 0.625rem 0.625rem;
+  background-repeat: no-repeat;
+  padding: 0.75rem 1.25rem 0.75rem 2.5rem;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 60%;
+}
+
+.sbmtBtn {
+  width: 9.375rem;
+  height: 5rem;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.api {
+  display: flex;
+  justify-content: center;
+  padding: 0.438rem;
+  margin: auto;
+  width: 25rem;
+  height: 6.25rem;
+  border: solid 3px rgba(14, 242, 242, 0.75);
+  border-radius: 45px;
+  background: aliceblue;
+  margin-top: 3.75rem;
+}
+
+.p1 {
+  font-size: 20px;
+  margin-top: 6.25rem;
+}
+
+.p1:visited {
+  color: black;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials p {
+  font-size: 30px;
+  margin-top: 3.438rem;
+}
+
+.socials img {
+  width: 15.625rem;
+  margin-top: -1.875rem;
+}
