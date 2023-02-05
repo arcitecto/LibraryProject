@@ -234,9 +234,3 @@ hr {
   width: 15.625rem;
   margin-top: -1.875rem;
 }
-
-@media (max-width: 800px) {
-  .topNav {
-    background-color: orangered;
-  }
-}
