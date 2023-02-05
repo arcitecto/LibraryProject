@@ -33,6 +33,10 @@
     font-size: 12px;
   }
 
+  ul li {
+    width: 5.628rem;
+  }
+
   .catalog {
     border: none;
   }

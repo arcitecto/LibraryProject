@@ -23,6 +23,17 @@ body {
   /* margin-right: 1.5rem; */
 }
 
+/*  */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+}
+/*  */
+
 ul {
   list-style: none;
   padding: 0;
