@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 86.75em) {
   .section1 {
     width: 56.25rem;
     margin: auto;
@@ -20,5 +20,85 @@
   .section3 img {
     margin-top: 5rem;
     width: 50rem;
+  }
+}
+
+@media (max-width: 25.75rem) {
+  .container {
+    width: 25.75rem;
+  }
+
+  .topNav {
+    width: 25rem;
+    font-size: 12px;
+  }
+
+  .catalog {
+    border: none;
+  }
+
+  .signIn {
+    border: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .section1 {
+    width: 25rem;
+    height: 37rem;
+  }
+
+  .logo img {
+    width: 4.25rem;
+  }
+
+  .homepagePhoto img {
+    width: 20rem;
+    height: 15rem;
+  }
+
+  h2 {
+    font-size: 1.938rem;
+  }
+
+  p {
+    font-size: 0.938rem;
+  }
+
+  .section2 {
+    width: 25rem;
+    height: 43rem;
+  }
+
+  .address,
+  .hours {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .section2-2 p {
+    font-size: 0.938rem;
+    text-align: center;
+    width: 20rem;
+  }
+
+  .donateBtn {
+    margin-top: 1.75rem;
+  }
+
+  .section3 {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .section3 img {
+    width: 20.5rem;
+  }
+
+  .socials img {
+    width: 12rem;
   }
 }
