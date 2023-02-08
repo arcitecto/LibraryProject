@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../cssFiles/createProfile.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../cssFiles/createProfile.css" />
+    <link rel="stylesheet" href="../cssFiles/createProfilePageQueries.css" />
     <title>Sign-Up Page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="topNav">
+      <div class="topNav">
+        <ul>
+          <li class="welcome">
+            <a href="../index.html" class="welcome">Welcome</a>
+          </li>
+
+          <li><a href="./About.html">About</a></li>
+
+          <li class="catalog">
+            <a href="./Search.html"
+              ><img src="../Images/searchIcon.png" class="search" />Library
+              Catalog</a
+            >
+          </li>
+
+          <li class="events"><a href="../index.html#Events">Events</a></li>
+
+          <li class="donate"><a href="../index.html#Donate">Donate</a></li>
+
+          <li>
+            <a href="./Account.html">My Account</a>
             <ul>
-                <li class="welcome"><a href="../index.html" class="welcome">Welcome</a></li>
+              <li><a href="./Favorite.html">Favorites</a></li>
 
-                <li><a href="./About.html">About</a></li>
-
-                <li class="catalog"><a href="./Search.html"><img src="../Images/searchIcon.png" class="search">Library
-                        Catalog</a></li>
-
-                <li><a href="../index.html#Events">Events</a></li>
-
-                <li><a href="../index.html#Donate">Donate</a></li>
-
-                <li><a href="./Account.html">My Account</a>
-                    <ul>
-                        <li><a href="./Favorite.html">Favorites</a></li>
-
-                        <li><a href="./Unrated.html">Unrated</a></li>
-                    </ul>
-                </li>
-
-                <li class="signIn"><a href="./signIn.html">Sign In</a></li>
+              <li><a href="./Unrated.html">Unrated</a></li>
             </ul>
+          </li>
+
+          <li class="signIn"><a href="./signIn.html">Sign In</a></li>
+        </ul>
+      </div>
+      <div class="section1">
+        <div class="logo">
+          <img src="../Images/BPLcanvaLogo 1.png" alt="" />
         </div>
-        <div class="section1">
-            <div class="logo">
-                <img src="../Images/BPLcanvaLogo 1.png" alt="">
-            </div>
-            <h1>Welcome to Beatrice Public Library</h1>
-            <form action="./Catalog.html">
-                <label for="name">First and Last Name:</label><br>
-                <input type="text" name="name" id="name"><br>
-                <label for="email">Email Address:</label><br>
-                <input type="text" id="email" name="email"><br>
-                <label for="password">Password:</label><br>
-                <input type="text" name="password" id="password"><br>
-                <input type="submit" value="Sign Up" class="sbmtBtn">
-            </form>
-            <div class="api">
-                <img src="../Images/facebookIcon.png" alt="">
-                <img src="../Images/appleIcon.png" alt="">
-                <img src="../Images/googleIcon.png" alt="">
-            </div>
-            <a href="./createProfile.html">
-                <p class="p1">Not a member yet? <u>Sign Up Here</u></p>
-            </a>
+        <h1>Welcome to Beatrice Public Library</h1>
+        <form action="./Catalog.html">
+          <label for="name">First and Last Name:</label><br />
+          <input type="text" name="name" id="name" /><br />
+          <label for="email">Email Address:</label><br />
+          <input type="text" id="email" name="email" /><br />
+          <label for="password">Password:</label><br />
+          <input type="text" name="password" id="password" /><br />
+          <input type="submit" value="Sign Up" class="sbmtBtn" />
+        </form>
+        <div class="api">
+          <img src="../Images/facebookIcon.png" alt="" />
+          <img src="../Images/appleIcon.png" alt="" />
+          <img src="../Images/googleIcon.png" alt="" />
         </div>
-        <div class="socials">
-            <p><u>Follow Us</u></p>
-            <img src="../Images/socials.png" alt="">
-        </div>
+        <a href="./createProfile.html">
+          <p class="p1">Not a member yet? <u>Sign Up Here</u></p>
+        </a>
+      </div>
+      <div class="socials">
+        <p><u>Follow Us</u></p>
+        <img src="../Images/socials.png" alt="" />
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>

@@ -1,78 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../cssFiles/Search.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../cssFiles/Search.css" />
+    <link rel="stylesheet" href="../cssFiles/searchPageQueries.css" />
     <title>Library Search Catalog</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="topNav">
+      <div class="topNav">
+        <ul>
+          <li class="welcome">
+            <a href="../index.html" class="welcome">Welcome</a>
+          </li>
+
+          <li><a href="./About.html">About</a></li>
+
+          <li class="catalog">
+            <a href="./Search.html"
+              ><img src="../Images/searchIcon.png" class="search" />Library
+              Catalog</a
+            >
+          </li>
+
+          <li class="events"><a href="../index.html#Events">Events</a></li>
+
+          <li class="donate"><a href="../index.html#Donate">Donate</a></li>
+
+          <li>
+            <a href="./Account.html">My Account</a>
             <ul>
-                <li class="welcome"><a href="../index.html" class="welcome">Welcome</a></li>
+              <li><a href="./Favorite.html">Favorites</a></li>
 
-                <li><a href="./About.html">About</a></li>
-
-                <li class="catalog"><a href="./Search.html"><img src="../Images/searchIcon.png" class="search">Library
-                        Catalog</a></li>
-
-                <li><a href="../index.html#Events">Events</a></li>
-
-                <li><a href="../index.html#Donate">Donate</a></li>
-
-                <li><a href="./Account.html">My Account</a>
-                    <ul>
-                        <li><a href="./Favorite.html">Favorites</a></li>
-
-                        <li><a href="./Unrated.html">Unrated</a></li>
-                    </ul>
-                </li>
-
-                <li class="signIn"><a href="./signIn.html">Sign In</a></li>
+              <li><a href="./Unrated.html">Unrated</a></li>
             </ul>
-        </div>
-        <div class="section1">
-            <div class="logo">
-                <img src="../Images/BPLcanvaLogo 1.png" alt="">
-            </div>
-            <div>
-                <h1><u>Browse Our Catalog</u></h1>
-            </div>
+          </li>
 
-            <form action="#">
-                <label for="search">Search:</label>
-                <input type="text" name="" id="search"> by
-                <select name="dropdown" id="dropdown">
-                    <option value="keyword">keyword</option>
-                    <option value="author">author</option>
-                    <option value="title">title</option>
-                    <option value="series">series</option>
-                    <option value="subject">subject</option>
-                </select>
-            </form>
-            <div><a href="#"><u>Advanced Search</u></a></div>
-            <div class="srchBtn">
-                <button>SEARCH CATALOG</button>
-            </div>
-            <div class="category">
-                &#8592;
-                <div class="selection">Available Now
-                </div>
-                <div class="selection">Best Sellers</div>
-                <div class="selection">Most Popular</div>
-                <div class="selection">Children's Books</div>
-                <div class="selection">Young Adult</div>
-                <div class="selection">Newest Titles</div>
-                &#8594;
-            </div>
+          <li class="signIn"><a href="./signIn.html">Sign In</a></li>
+        </ul>
+      </div>
+      <div class="section1">
+        <div class="logo">
+          <img src="../Images/BPLcanvaLogo 1.png" alt="" />
         </div>
-        <div class="socials">
-            <p><u>Follow Us</u></p>
-            <img src="../Images/socials.png" alt="">
+        <div>
+          <h1><u>Browse Our Catalog</u></h1>
         </div>
+
+        <form action="#">
+          <label for="search">Search:</label>
+          <input type="text" name="" id="search" /> by
+          <select name="dropdown" id="dropdown">
+            <option value="keyword">keyword</option>
+            <option value="author">author</option>
+            <option value="title">title</option>
+            <option value="series">series</option>
+            <option value="subject">subject</option>
+          </select>
+        </form>
+        <div>
+          <a href="#"><u>Advanced Search</u></a>
+        </div>
+        <div class="srchBtn">
+          <button>SEARCH CATALOG</button>
+        </div>
+        <div class="category">
+          &#8592;
+          <div class="selection">Available Now</div>
+          <div class="selection">Best Sellers</div>
+          <div class="selection">Most Popular</div>
+          <div class="selection">Children's Books</div>
+          <div class="selection">Young Adult</div>
+          <div class="selection">Newest Titles</div>
+          &#8594;
+        </div>
+      </div>
+      <div class="socials">
+        <p><u>Follow Us</u></p>
+        <img src="../Images/socials.png" alt="" />
+      </div>
     </div>
-</body>
+  </body>
+</html>

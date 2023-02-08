@@ -1,0 +1,71 @@
+@media (max-width: 25.75rem) {
+  .container {
+    width: 25.75rem;
+  }
+
+  .topNav {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .topNav ul li {
+    width: 4.5rem;
+  }
+
+  .catalog {
+    border: none;
+  }
+
+  .events {
+    display: none;
+  }
+
+  .donate {
+    display: none;
+  }
+
+  .signIn {
+    border: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .section1 {
+    width: 23.438rem;
+    height: 62rem;
+    margin: auto;
+    margin-top: 0.938rem;
+  }
+
+  .logo img {
+    width: 4.25rem;
+  }
+
+  h1 {
+    font-size: 1.938rem;
+    margin-top: 1.563rem;
+  }
+
+  input {
+    width: 20.438rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .section2 {
+    width: 22rem;
+    height: 41rem;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .socials img {
+    width: 10rem;
+  }
+}

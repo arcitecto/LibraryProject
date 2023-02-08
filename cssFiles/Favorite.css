@@ -90,6 +90,7 @@ a {
 }
 
 .section1 {
+  position: relative;
   width: 75rem;
   height: 56.25rem;
   border: solid 3px rgba(14, 242, 242, 0.75);
@@ -104,8 +105,8 @@ a {
   position: absolute;
   width: 7.5rem;
   height: 7.5rem;
-  top: 2.938rem;
-  left: 5.5rem;
+  top: -1.5rem;
+  left: -3.5rem;
 }
 
 .logo img {

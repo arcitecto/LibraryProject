@@ -1,0 +1,71 @@
+@media (max-width: 25.75rem) {
+  .container {
+    width: 25.75rem;
+  }
+
+  .topNav {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .topNav ul li {
+    width: 5.1rem;
+  }
+
+  .catalog {
+    border: none;
+  }
+
+  .events,
+  .donate {
+    display: none;
+  }
+
+  .signIn {
+    border: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .section1 {
+    width: 23.438rem;
+    height: 44rem;
+    margin: auto;
+    margin-top: 0.938rem;
+  }
+
+  .persona {
+    width: 23.438rem;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .logo img {
+    width: 4.25rem;
+  }
+
+  h1 {
+    font-size: 1.938rem;
+  }
+
+  .personaImg {
+    display: none;
+  }
+
+  .content {
+    width: 23.438rem;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .content li {
+    width: 23.438rem;
+    list-style: none;
+  }
+
+  .socials img {
+    width: 12rem;
+  }
+}
