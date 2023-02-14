@@ -1,4 +1,4 @@
-@media (min-width: 21.875rem) (max-width: 31.188rem) {
+@media (min-width: 21.875rem) and (max-width: 31.188rem) {
   .container {
     width: 25.75rem;
   }
